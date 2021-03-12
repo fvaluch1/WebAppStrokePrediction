@@ -18,12 +18,12 @@ Detects the risk of having a Stroke.
 """)
 
 # Create and display Image
-image = Image.open("C:/Users/usuario/Desktop/ML/stroke.png")
+image = Image.open("stroke.png")
 
 st.image(image, caption="ML", use_column_width=True)
 
 # Get the data
-data = pd.read_csv("C:/Users/usuario/Desktop/ML/healthcare-dataset-stroke-data.csv")
+data = pd.read_csv("healthcare-dataset-stroke-data.csv")
 
 # Set a Subheader
 st.subheader("Data Information")
